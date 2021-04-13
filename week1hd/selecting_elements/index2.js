@@ -1,3 +1,6 @@
-var h1 = document.getElementById("idName");
-console.log(h1)
-h1.innerHTML ="This is a tag<h2>This is another tag</h2>"
+var greeting= document.getElementById('hello');
+greeting.innerHTML += 'hello'
+console.log(greeting)
+
+
+
